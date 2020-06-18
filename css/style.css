@@ -59,3 +59,70 @@ header {
 
 }
 /*header end*/
+/*banner srection start*/
+.banner{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-background-size: cover;
+
+	/*width: 1250px;*/
+	/*min-height: 550px;*/
+
+}
+.b_content{
+	width: 50%;
+/*order: 1px solid red;*/
+	margin-top: 200px;
+	margin-bottom: 80px;
+
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 41px;
+	color: white;
+	text-transform: capitalize;
+	margin: 0;
+}
+.b_content h2{
+	font-family: sans-serif;
+	font-size: 43px;
+	color: #0078BD;
+	text-transform: capitalize;
+	margin: 0;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-weight: 400;
+	color: white;
+	text-transform: capitalize;
+	margin: 0;
+	line-height: 25px;
+	letter-spacing:;
+	word-spacing:;
+}
+.b_content button{
+	width: 200px;
+	height: 35px;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: gray;
+	text-transform: uppercase;
+	background-color: white;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .3s;
+}
+.b_content button:hover{
+	color:#0078BD;
+}
+.b_content button:focus{
+	outline: 0;
+}
+
+/*banner srection end*/
