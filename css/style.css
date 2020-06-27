@@ -6,6 +6,7 @@ body{
 header {
 	background-color: #121B21;
 	padding: 10px 0;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 1);
 }
 .wrapper {
 	margin: 0 auto;
@@ -320,7 +321,7 @@ header {
 	color: #0178BC;
 
 }
-.contact p{
+address{
 	margin-left: 30px;
 	font-family: sans-serif;
 	font-weight: 300;
@@ -493,25 +494,5 @@ footer{
 	width: 100%;
 }
 /*footer end*/
-#talkbubble {
-	margin: 200px;
-    width: 120px;
-    height: 80px;
-    background: red;
-    position: relative;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-#talkbubble:before {
-   	content: "";
-    position: absolute;
-    right: 100%;
-    top: 26px;
-    width: 0;
-    height: 0;
-    border-top: 13px solid transparent;
-    border-right: 26px solid red;
-    border-bottom: 13px solid transparent;
-}
+
   
